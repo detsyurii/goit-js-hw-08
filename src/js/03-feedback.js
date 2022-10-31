@@ -7,8 +7,6 @@ formRef.addEventListener('input', throttle(onFormInput, 500));
 
 const STORAGE_KEY = 'feedback-form-state';
 
-const formData = {};
-
 populateForm();
 
 function onFormSubmit(evt) {
